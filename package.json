@@ -2,7 +2,7 @@
   "name": "bank-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/gidonleh/bank-app",
+  "homepage": "https://github.com/bank-app",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

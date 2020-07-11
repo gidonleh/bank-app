@@ -31,8 +31,10 @@ export default function Login(props) {
         </div>  
 
         <div className="row">
-           
+    
+
            <div className="col">
+               
            <input type="text" className="my-input mt-2" placeholder="Password" onChange={(e)=>{setUpass(e.target.value)}}/>
            </div>
          
@@ -41,18 +43,23 @@ export default function Login(props) {
 
         <div className="row">
             <div className="col">
-                <button className="btn btn-info mt-2" onClick={handleEnter}>Enter</button>
+                <button className="btn btn-info mt-2" onClick={handleEnter}>Log In</button>
             </div>
         </div>
         <div className="row mt-4">
             <div className="col">
                 
-            Don't have an account?      <Link to="/register"><button className="btn btn-danger">Register</button></Link>
-            </div>
-           
-           
+            Don't have an account?      
+           </div>        
            
         </div>
+        
+        <div className="row">
+            <div className="col">
+            <Link to="/register"><button className="btn btn-success mb-4 mt-2">Register</button></Link>
+            </div>
+        </div>
+       
         </div>
 
     )

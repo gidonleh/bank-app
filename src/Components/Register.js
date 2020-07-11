@@ -16,8 +16,8 @@ export default function Register(props) {
            alert ('ID must be of 9 digits only');
            return;
         }
-        if (uname.length < 4) {
-            alert ('Name must be of more than 4 letters');
+        if (uname.length < 4 || !isNaN(uname)) {
+            alert ('Name must be of more than 4 letters and letters only');
             return;
         }
         if (pass.length < 6) {
@@ -40,11 +40,11 @@ export default function Register(props) {
            <h3 className="register-header">Register</h3>
         <div className="row">
         
+       
            <div className="col">
                
            <input type="text" id="id" className="my-input mt-2" placeholder="ID" onChange={(e)=>{setId(e.target.value)}}/>
            </div>
-           
            
         </div>  
 

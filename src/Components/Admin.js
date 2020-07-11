@@ -42,7 +42,7 @@ export default function Admin(props) {
                                     <div className="row mb-2">
                                         <div className="col">{element.company}</div>
                                         <div className="col">{element.expense}</div>
-                                        <div className="col"><button onClick={()=>{eraseExpense(elementIndex,i)}}>X {elementIndex} {'\u00A0'} {i}</button> </div>
+                                        <div className="col"><button onClick={()=>{eraseExpense(elementIndex,i)}}>X</button> </div>
                                         
                                     </div>
                                 )

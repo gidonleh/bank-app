@@ -1,0 +1,75 @@
+body {
+  height: 100%;
+  background-color: rgb(77, 4, 245);
+  overflow: hidden;
+}
+.container {
+  height: 100%;
+  transition: ease .5s;
+}
+.register-container,
+.login-container {
+  border: solid .25px;
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  min-width: 200px;
+  max-width: 600px;
+  align-self: center;
+  margin-top: 20%;
+  box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.75);
+}
+
+.action {
+  grid-area: top-left;
+}
+
+.balance {
+  grid-area: top-right;
+}
+
+.exit {
+  grid-area: bottom-left;
+}
+
+.edit {
+  grid-area: bottom-right;
+}
+
+.action-buttons {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "top-left top-right"
+
+    "bottom-left bottom-right";
+  margin-right: 0;
+}
+
+.balance,
+.action,
+.exit,
+.edit {
+  width: 100%;
+  padding: 6px 6px 6px 6px;
+  margin: 25px 25px 25px 25px;
+}
+
+.mySpan {
+  font-size: 1.5em;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.row-full,
+.card-header {
+  width: 100%;
+}

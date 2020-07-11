@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gidonleh/bank-app/static/css/main.d51f5a17.chunk.css",
+    "main.js": "/gidonleh/bank-app/static/js/main.bc3c75c8.chunk.js",
+    "main.js.map": "/gidonleh/bank-app/static/js/main.bc3c75c8.chunk.js.map",
+    "runtime-main.js": "/gidonleh/bank-app/static/js/runtime-main.b14a7c8f.js",
+    "runtime-main.js.map": "/gidonleh/bank-app/static/js/runtime-main.b14a7c8f.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/gidonleh/bank-app/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.46a6b04d.chunk.js": "/gidonleh/bank-app/static/js/2.46a6b04d.chunk.js",
+    "static/js/2.46a6b04d.chunk.js.map": "/gidonleh/bank-app/static/js/2.46a6b04d.chunk.js.map",
+    "index.html": "/gidonleh/bank-app/index.html",
+    "precache-manifest.2237b22343301015623ee1c83f964d28.js": "/gidonleh/bank-app/precache-manifest.2237b22343301015623ee1c83f964d28.js",
+    "service-worker.js": "/gidonleh/bank-app/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/gidonleh/bank-app/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.d51f5a17.chunk.css.map": "/gidonleh/bank-app/static/css/main.d51f5a17.chunk.css.map",
+    "static/js/2.46a6b04d.chunk.js.LICENSE.txt": "/gidonleh/bank-app/static/js/2.46a6b04d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b14a7c8f.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.46a6b04d.chunk.js",
+    "static/css/main.d51f5a17.chunk.css",
+    "static/js/main.bc3c75c8.chunk.js"
+  ]
+}

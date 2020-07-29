@@ -20,6 +20,13 @@ export default function Login(props) {
     return (
         <div className="container text-center login-container">
            <h3 className="login-header">SV-BANK</h3>
+        
+        <div className="row">
+        <div className="col">
+        <h3> (enter ADMIN in username and password to get to admin page) </h3>
+        </div>
+        </div>
+        
         <div className="row">
         
            <div className="col">
